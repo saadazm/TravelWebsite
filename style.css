@@ -1,9 +1,5 @@
 .body{
     margin-top: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
     max-width: 1280px;
 }
 .heading{
@@ -11,14 +7,15 @@
 }
 .nav{
     display: flex;
-    /* flex-direction: row;
-    border: none; */
+    flex-direction: row;
+    border: none;
     float: right;
 }
 .bannerContainer{
     display:flex;
     width:100%;
     justify-content: space-around;
+    padding: 20px;
 }
 .banner{
     background-image: url("Group 13 (1) (1).png");
@@ -30,6 +27,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+.popT{
+    padding:20px;
+    max-width: 50%;
 }
 .optns{
     padding:20px;
@@ -47,13 +48,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 80%;
 }
 .destinations{
     display:grid;
-    grid-template-columns: repeat(3, [col] auto  );
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+
 }
 .maldives {
-    position: relative;;
+    position: relative;
   }
 .maldives  h1 {
     position: absolute;
@@ -64,7 +68,7 @@
     margin: 0 auto;
   }
 .indonesia {
-    position: relative;;
+    position: relative;
   }
 .indonesia h1 {
     position: absolute;
@@ -75,7 +79,7 @@
     margin: 0 auto;
   }
 .srilanka {
-    position: relative;;
+    position: relative;
   }
 .srilanka h1 {
     position: absolute;
@@ -87,7 +91,7 @@
   }
 
   .northAmerica {
-    position: relative;;
+    position: relative;
   }
 .northAmerica h1 {
     position: absolute;
@@ -98,7 +102,7 @@
     margin: 0 auto;
   }
   .kashmir {
-    position: relative;;
+    position: relative;
   }
 .kashmir h1 {
     position: absolute;
@@ -110,7 +114,7 @@
     margin: 0 auto;
   }
   .bangladesh {
-    position: relative;;
+    position: relative;
   }
 .bangladesh h1 {
     position: absolute;
@@ -121,7 +125,7 @@
     margin: 0 auto;
   }
   .bandarban {
-    position: relative;;
+    position: relative;
   }
 .bandarban h1 {
     position: absolute;
@@ -135,7 +139,6 @@
 .whyChooseUs{
     display:flex;
     flex-direction: column;
-    align-items: center;
 }
 .wcuSections{
     display: flex;
@@ -144,12 +147,15 @@
 }
 .dealsDiscounts{
     display: flex;
+    text-align: center;
+    padding: 20px;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 }
 .dd1{
     background-image: url("Group 39.png");
-    background-size: cover;
+    background-size:auto;
     background-repeat: no-repeat, no-repeat;
     width:100%;
     height:auto;
