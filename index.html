@@ -19,8 +19,8 @@
         .nav{
             display: flex;
             flex-direction: row;
-            border:none;
-            float:right;
+            border: none;
+            float: right;
         }
         .bannerContainer{
             display:flex;
@@ -29,6 +29,7 @@
         }
         .banner{
             background-image: url("Group 13 (1) (1).png");
+            background-size: cover;
             background-repeat: no-repeat, no-repeat;
             width:100%;
             height:auto;
@@ -37,12 +38,85 @@
             align-items: center;
             justify-content: space-around;
         }
+        .optns{
+            padding:20px;
+            justify-content:center;
+            border-radius: 10px;
+            background-color: antiquewhite;
+            background-color: rgba(250, 235, 215, 0.423);
+            display: flex;
+        }
         .twp{
             display:flex;
             justify-content: space-around;
         }
         .popT{
 
+        }
+        .chooseDestination{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .destinations{
+            display:grid;
+            grid-template-columns: repeat(3, [col] auto  );
+        }
+        .whyChooseUs{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .wcuSections{
+            display: flex;
+            justify-content: space-between;
+            padding:5%;
+        }
+        .dealsDiscounts{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .dd1{
+            background-image: url("Group 39.png");
+            background-size: cover;
+            background-repeat: no-repeat, no-repeat;
+            width:100%;
+            height:auto;
+            padding:50px;
+        }
+        .dd2{
+            background-image: url("Group 40.png");
+            background-size: cover;
+            background-repeat: no-repeat, no-repeat;
+            width:100%;
+            height:auto;
+            padding:50px;
+        }
+        .dd1t{
+            padding: 20px;
+            background-color: antiquewhite;
+            color: black;
+            opacity: 80%;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+        .dd2t{
+            padding: 20px;
+            background-color: antiquewhite;
+            color: black;
+            opacity: 80%;
+            border-radius: 10px;
+        }
+        .sbutton{
+            color: antiquewhite;
+            background-color: rgb(255, 4, 4);
+            border-color: transparent;
+            padding: 10px;
+            border-radius: 5px;
         }
         .Newsletter{
             display: flex;
@@ -54,7 +128,18 @@
             border-color: rgb(255, 110, 6);
             padding: 2%;
         }
+        .nlib{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
         .cH{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .socialMedia{
             display: flex;
             align-items: center;
             justify-content: center;
@@ -85,7 +170,10 @@
             <h1>Explore Your Travel</h1>
             <p>Explore the world with us and enjoy mesmerizing places</p>
             <div class="optns">
-    
+                <input>
+                <input>
+                <input>
+                <button>🔍 Find Now</button>
             </div>
         </div>
     </div>
@@ -94,28 +182,94 @@
         <div class="popT">
             <h1>Our popular Tours</h1>
             <p>We have amazing memory of tours</p>
+            <p>Embark on a journey of a lifetime with our extraordinary tour experiences! At Amazing Memory Tours, we don't just offer trips; we create memories that will last a lifetime.</p>
             <button>Read More</button>
         </div>
         <img src = "Rectangle 4.png" style="display: flex;  justify-content: flex-end;">
     </div>
     <div class="chooseDestination">
         <h1>Choose Your Destination</h1>
-        <div class="destinationAlbums"></div>
+        <div class="destinations">
+            <div class="maldives">
+                <h1 style="float:bottom;">Maldives</h1>
+                <img src="Rectangle 5.png">
+            </div>
+            <div class="indonesia">
+                <img src="Rectangle 8.png">
+            </div>
+            <div class="srilanka">
+                <img src="Rectangle 6.png">
+            </div>
+            <div class="north America">
+                <img src="Rectangle 7.png">
+            </div>
+            <div class="kashmir">
+                <img src="Rectangle 9.png">
+            </div>
+            <div class="bangladesh">
+                <img src="Rectangle 11.png">
+            </div>
+            <div class="bandarban">
+                <img src="Rectangle 10.png">
+            </div>
+        </div>
     </div>
     <div class="simpleperfectPlace">
         <div class="sppText">
             <h1>A Simple Perfect Place to get Lost</h1>
-            
+    
         </div>
-        <div class="sppVideo"></div>
+    <div class="whyChooseUs">
+        <h1>Why Choose Us</h1>
+        <p>We are unique in helping you experience some natural travel experience</p>
+        <div class="wcuSections">
+            <div class="handpickedHotels">
+                <img src="hotel.png">
+                <h1>Hand Picked Hotels</h1>
+            </div>
+            <div class="worldClassService">
+                <img src="map.png">
+                <h1>World Class Services</h1>
+            </div>
+            <div class="BestPrice">
+                <img src="tag.png">
+                <h1>Best Price Guarantee</h1>
+            </div>
+        </div>
+    </div>
+    <div class="dealsDiscounts"></div>
+    <h1>Deals and Discounts</h1>
+        <div class="dd1">
+            <div class="dd1t">
+                <h1>Tour to Satorini</h1>
+                <h2 style="font-family: Arial, Helvetica, sans-serif; color: orangered;">price $1300-$1500</h2>
+                <button class="sbutton">Book Now</button>
+            </div>
+        </div>
+        <div class="dd2">
+            <div class="dd2t">
+                <h1>Tour to Satorini</h1>
+                <h2 style="font-family: Arial, Helvetica, sans-serif; color: orangered;">price $1300-$1500</h2>
+                <button class="sbutton">Book Now</button>
+            </div>
+        </div>
+        <div class="dd1">
+            <div class="dd1t">
+                <h1>Tour to Satorini</h1>
+                <h2 style="font-family: Arial, Helvetica, sans-serif; color: orangered;">price $1300-$1500</h2>
+                <button class="sbutton">Book Now</button>
+            </div>
+        </div>
     </div>
     <div class="Newsletter">
         <div class="NewsLetterBox">
             <h1>Newsletter</h1>
             <p>Get your daily dose of travel news & tips. Sign up Today</p>
-            <input>
-            <Input>
-            <button>Subscribe</button>
+            <div class="nlib">
+                <input placeholder="Enter Your Name" style="border-color: transparent; background-color: antiquewhite; border-radius: 3px; padding:5px;">
+                <Input placeholder="Enter Your email" style="border-color: transparent; background-color: antiquewhite; border-radius: 3px; padding:5px;">
+                <button style="padding:5px; color:white; background-color: orangered; border-color: transparent; padding: 10px; border-radius: 10px;">Subscribe</button>
+            </div>
         </div>
         <img src="Rectangle 8 (1).png" id="nlImage">
     </div>
@@ -125,8 +279,13 @@
             <h1>Hero Travel</h1>
         </div>
         <div class="socialMedia">
-
+            <img src="facebook.png">
+            <img src="github.png">
+            <img src="twitter.png">
+            <img src="instagram.png">
         </div>
+        <p style="display:flex; align-items: center; justify-content: center;">📞 Call us at 000000001</p>
+        <p style="display:flex; align-items: center; justify-content: center;">📧 Email us at herotravel@hr.com</p>
     </div>
     <div class="rReserved">
         <p>2017, All Rights Reserved</p>
