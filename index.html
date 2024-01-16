@@ -7,26 +7,129 @@
     <style>
         .body{
             margin-top: 10px;
-            margin-left: 10px;
-            margin-right: 10px;
-            
+            margin-left: 50px;
+            margin-right: 50px;
+            padding-left: 50px;
+            padding-right: 50px;
+            max-width: 1280px;
+        }
+        .heading{
+            display: flex;
+        }
+        .nav{
+            display: flex;
+            flex-direction: row;
+            border:none;
+            float:right;
+        }
+        .bannerContainer{
+            display:flex;
+            width:100%;
+            justify-content: space-around;
         }
         .banner{
             background-image: url("Group 13 (1) (1).png");
             background-repeat: no-repeat, no-repeat;
+            width:100%;
+            height:auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .twp{
+            display:flex;
+            justify-content: space-around;
+        }
+        .popT{
+
+        }
+        .Newsletter{
+            display: flex;
+            justify-content: space-around;
+        }
+        .NewsLetterBox{
+            border-style: solid;
+            border-radius: 20px;
+            border-color: rgb(255, 110, 6);
+            padding: 2%;
+        }
+        .cH{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .rReserved{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
         }
     </style>
 </head>
 <body>
-    <div class="banner">
-        <h1>Explore Your Travel</h1>
-        <p>Explore the world with us and enjoy mesmerizing places</p>
-        <div class="optns">
+    <div class="heading">
+        <div class="logo">
+            <img src="Group 40071 (2).png">
+        </div>
+        <div class="nav">
+            <button style="border:none;">Home</button>
+            <button style="border:none;">Packages</button>
+            <button style="border:none;">Testimonial</button>
+            <button style="border:none;">Blog</button>
+            <button style="border:none;">Contact</button>
+        </div>
+    </div>
+    <div class="bannerContainer">
+        <div class="banner">
+            <h1>Explore Your Travel</h1>
+            <p>Explore the world with us and enjoy mesmerizing places</p>
+            <div class="optns">
+    
+            </div>
+        </div>
+    </div>
+    
+    <div class="twp">
+        <div class="popT">
+            <h1>Our popular Tours</h1>
+            <p>We have amazing memory of tours</p>
+            <button>Read More</button>
+        </div>
+        <img src = "Rectangle 4.png" style="display: flex;  justify-content: flex-end;">
+    </div>
+    <div class="chooseDestination">
+        <h1>Choose Your Destination</h1>
+        <div class="destinationAlbums"></div>
+    </div>
+    <div class="simpleperfectPlace">
+        <div class="sppText">
+            <h1>A Simple Perfect Place to get Lost</h1>
+            
+        </div>
+        <div class="sppVideo"></div>
+    </div>
+    <div class="Newsletter">
+        <div class="NewsLetterBox">
+            <h1>Newsletter</h1>
+            <p>Get your daily dose of travel news & tips. Sign up Today</p>
+            <input>
+            <Input>
+            <button>Subscribe</button>
+        </div>
+        <img src="Rectangle 8 (1).png" id="nlImage">
+    </div>
+    <div class="contact">
+        <div class="cH">
+            <img src="Group 40071 (2).png">
+            <h1>Hero Travel</h1>
+        </div>
+        <div class="socialMedia">
 
         </div>
     </div>
-
-    <img src = "Rectangle 4.png" style="float:right">
-
+    <div class="rReserved">
+        <p>2017, All Rights Reserved</p>
+    </div>
 </body>
 </html>
