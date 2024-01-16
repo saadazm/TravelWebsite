@@ -1,0 +1,222 @@
+.body{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 1280px;
+}
+.heading{
+    display: flex;
+}
+.nav{
+    display: flex;
+    /* flex-direction: row;
+    border: none; */
+    float: right;
+}
+.bannerContainer{
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+}
+.banner{
+    background-image: url("Group 13 (1) (1).png");
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat;
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.optns{
+    padding:20px;
+    justify-content:center;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    background-color: rgba(250, 235, 215, 0.423);
+    display: flex;
+}
+.twp{
+    display:flex;
+    justify-content: space-around;
+}
+.chooseDestination{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.destinations{
+    display:grid;
+    grid-template-columns: repeat(3, [col] auto  );
+}
+.maldives {
+    position: relative;;
+  }
+.maldives  h1 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: #ffffff;
+    margin: 0 auto;
+  }
+.indonesia {
+    position: relative;;
+  }
+.indonesia h1 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: #ffffff;
+    margin: 0 auto;
+  }
+.srilanka {
+    position: relative;;
+  }
+.srilanka h1 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: #ffffff;
+    margin: 0 auto;
+  }
+
+  .northAmerica {
+    position: relative;;
+  }
+.northAmerica h1 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: #ffffff;
+    margin: 0 auto;
+  }
+  .kashmir {
+    position: relative;;
+  }
+.kashmir h1 {
+    position: absolute;
+    text-align:start;
+    padding: 20px;
+    top: 30%;
+    width: 100%;
+    color: #ffffff;
+    margin: 0 auto;
+  }
+  .bangladesh {
+    position: relative;;
+  }
+.bangladesh h1 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: #ffffff;
+    margin: 0 auto;
+  }
+  .bandarban {
+    position: relative;;
+  }
+.bandarban h1 {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    color: #ffffff;
+    margin: 0 auto;
+  }
+
+.whyChooseUs{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wcuSections{
+    display: flex;
+    justify-content: space-between;
+    padding:5%;
+}
+.dealsDiscounts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dd1{
+    background-image: url("Group 39.png");
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat;
+    width:100%;
+    height:auto;
+    padding:50px;
+}
+.dd2{
+    background-image: url("Group 40.png");
+    background-size: cover;
+    background-repeat: no-repeat, no-repeat;
+    width:100%;
+    height:auto;
+    padding:50px;
+}
+.dd1t{
+    padding: 20px;
+    background-color: antiquewhite;
+    color: black;
+    opacity: 80%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.dd2t{
+    padding: 20px;
+    background-color: antiquewhite;
+    color: black;
+    opacity: 80%;
+    border-radius: 10px;
+}
+.sbutton{
+    color: antiquewhite;
+    background-color: rgb(255, 4, 4);
+    border-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+}
+.Newsletter{
+    display: flex;
+    justify-content: space-around;
+}
+.NewsLetterBox{
+    border-style: solid;
+    border-radius: 20px;
+    border-color: rgb(255, 110, 6);
+    padding: 2%;
+}
+.nlib{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.cH{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.socialMedia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rReserved{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
