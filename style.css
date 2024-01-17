@@ -1,15 +1,16 @@
 .body{
-    margin-top: 10px;
     max-width: 1280px;
+
 }
 .heading{
     display: flex;
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
 }
 .nav{
     display: flex;
     flex-direction: row;
     border: none;
-    float: right;
 }
 .bannerContainer{
     display:flex;
@@ -28,6 +29,12 @@
     align-items: center;
     justify-content: space-around;
 }
+.inp{
+    border-color: transparent;
+    margin: .5rem;
+    padding:.5rem;
+    border-radius: 5px;
+}
 .popT{
     padding:20px;
     max-width: 50%;
@@ -39,18 +46,18 @@
     background-color: antiquewhite;
     background-color: rgba(250, 235, 215, 0.423);
     display: flex;
+    margin:5rem;
 }
 .twp{
     display:flex;
     justify-content: space-around;
 }
 .chooseDestination{
-    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 80%;
-    
+    margin: 2rem 2rem 2rem 2rem;
 }
 .destinations{
     display:flex;
@@ -146,6 +153,7 @@
     display: flex;
     justify-content: space-between;
     padding:5%;
+
 }
 .dealsDiscounts{
     display: flex;
@@ -154,6 +162,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    margin: 2rem 2rem 2rem 2rem;
 }
 .dd1{
     background-image: url("Group 39.png");
@@ -162,6 +171,7 @@
     width:100%;
     height:auto;
     padding:50px;
+    margin: 2rem 2rem 2rem 2rem;
 }
 .dd2{
     background-image: url("Group 40.png");
@@ -170,6 +180,7 @@
     width:100%;
     height:auto;
     padding:50px;
+    margin: 2rem 2rem 2rem 2rem;
 }
 .dd1t{
     padding: 20px;
@@ -195,6 +206,7 @@
     border-color: transparent;
     padding: 10px;
     border-radius: 5px;
+    font-weight: bold;
 }
 .Newsletter{
     display: flex;
@@ -215,6 +227,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.contact{
+    background-color: #dadada88;
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 2rem 2rem 2rem 2rem;
 }
 
 .socialMedia{
