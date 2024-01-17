@@ -45,15 +45,17 @@
     justify-content: space-around;
 }
 .chooseDestination{
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 80%;
+    
 }
 .destinations{
-    display:grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
 
 }
 .maldives {
