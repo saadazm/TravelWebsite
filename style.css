@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: row;
     border: none;
+    padding-left: 70%;
 }
 .bannerContainer{
     display:flex;
@@ -145,6 +146,13 @@
     margin: 0 auto;
   }
 
+.sppText{
+    max-width: 60%;
+    padding: 2rem;
+}
+.sppvideo{
+    text-align: right;
+}
 .whyChooseUs{
     display:flex;
     flex-direction: column;
@@ -154,6 +162,29 @@
     justify-content: space-between;
     padding:5%;
 
+
+}
+.handpickedHotels{
+    background-color: #ffefde90;
+    padding:2rem;
+    border-style: solid;
+    border-color: #ffefde;
+    border-radius: 10px;
+    
+}
+.worldClassService{
+    background-color: #d5e4eb90;
+    padding:2rem;
+    border-style: solid;
+    border-color: #d5e4eb;
+    border-radius: 10px;
+}
+.BestPrice{
+    background-color: #eed8cc90;
+    padding:2rem;
+    border-style: solid;
+    border-color: #eed8cc;
+    border-radius: 10px;
 }
 .dealsDiscounts{
     display: flex;
